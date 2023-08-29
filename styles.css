@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: tomato;
+}
+
+
+.container{
+    width: 100%;
+    display: flex;
+    max-width: 800px;
+    background: #F3FDE8;
+    border-radius: 15px;
+    box-shadow:  0 10px 15px rgba(0, 0, 0, 0.1);
+}
+
+.login{
+    width: 400px;
+}
+
+
+form{
+     width: 250px;
+     margin: 60px auto;
+}
+
+h1{ 
+    text-align: center;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+p {
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+form label{
+     display: block;
+     font-size: 16px;
+     font-weight: bold;
+     padding-top: 15px;
+}
+
+input {
+    width: 200px;
+    border: none;
+    margin: 3px ;
+    padding: 10px;
+    border-radius: 6px;
+    outline: none;
+    border: 1px solid gray;
+}
+ 
+
+.pic img {
+    width: 450px;
+    display: flex;
+    height: 100%;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    
+}
+button{
+    padding: 10px;
+    width: 200px;
+    border: none;
+    outline: none;
+    margin-top: 20px;
+    border-radius: 10px;
+    color: azure;
+    background-color: tomato;
+    cursor: pointer;
+
+}
+
+button:hover {
+    background-color: tomato;
+}
+ a{
+    text-decoration: none;
+    padding-top: 10px;
+    color: #C70039;
+ }
+ hr{
+border-top: 2px solid tomato;
+ }
